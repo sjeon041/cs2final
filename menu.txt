@@ -1,0 +1,20 @@
+1|Pizza|20.00|A 14" pepperoni pizza
+2|Burger|12.00|A cheeseburger with lettuce, tomato, and onion
+3|Lasagna|15.50|Classic Italian lasagna with cheese and meat sauce
+4|Caesar Salad|10.00|Romaine lettuce with Caesar dressing and croutons
+5|Chicken Wings|13.00|8 spicy buffalo chicken wings
+6|Grilled Cheese|8.00|Golden grilled sandwich with cheddar cheese
+7|Spaghetti|14.00|Spaghetti pasta with marinara sauce
+8|Tacos|11.50|Three beef tacos with salsa and cheese
+9|Chicken Sandwich|12.00|Crispy chicken fillet with mayo on a bun
+10|Fish and Chips|16.00|Fried cod with seasoned fries
+11|Veggie Pizza|18.00|Pizza with mushrooms, olives, and bell peppers
+12|Chicken Alfredo|17.00|Fettuccine with Alfredo sauce and grilled chicken
+13|Nachos|10.50|Tortilla chips topped with cheese and jalapeños
+14|Clam Chowder|9.00|Creamy clam soup served with bread
+15|Greek Salad|11.00|Cucumbers, tomatoes, olives, and feta cheese
+16|French Fries|6.00|Crisp golden fries with sea salt
+17|BBQ Ribs|22.00|Half rack of BBQ ribs with house sauce
+18|Steak|25.00|10oz ribeye grilled to order
+19|Pancakes|9.50|Stack of 3 pancakes with maple syrup
+20|Chocolate Cake|7.00|Rich chocolate cake slice with fudge topping

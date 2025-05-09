@@ -1,0 +1,12 @@
+User 1s
+username: timothyj
+password: testpwd123
+User 2c
+username: hamzab
+password: testpwdabc
+User 3s
+username: ellep
+password: testpwd!@#
+User 4c
+username: gabrielg
+password: testpwdqwe
