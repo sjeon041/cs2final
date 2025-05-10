@@ -1,5 +1,6 @@
 #pragma once
 #include "orderitem.h"
+#include <iostream>
 
 class Order {
 public:
@@ -8,9 +9,10 @@ public:
     int tableNumber;
     string comment;
     string status;
-    OrderItem items[10];
+    OrderItem items[20];
     int itemCount = 0;
 
     void addItem(OrderItem item);
+    Order placeOrder(Menu& currentMenu);
     double calculateTotal();
 };

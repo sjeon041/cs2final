@@ -8,5 +8,10 @@ public:
     string specialRequest;
 
     OrderItem() {}
-    OrderItem(MenuItem m, int q, string r);
+    OrderItem(MenuItem m, int q, string r)
+    {
+        menuItem = m;
+        quantity = q;
+        specialRequest = r;
+    }
 };

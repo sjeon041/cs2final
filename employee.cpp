@@ -46,9 +46,11 @@ Employee* Employee::login() {
                 if (roleChar == 'c') {
                     user = new Chef();
                     cout << "Login successful as Chef.\n";
+                    user->username = inputUser;
                 } else if (roleChar == 's') {
                     user = new Server();
                     cout << "Login successful as Server.\n";
+                    user->username = inputUser;
                 } else {
                     cout << "Unknown role type.\n";
                     return nullptr;

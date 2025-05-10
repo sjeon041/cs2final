@@ -3,13 +3,14 @@
 using namespace std;
 
 class Employee {
-protected:
+private:
     string username;
     string password;
     double hoursWorked = 0;
 
 public:
     static Employee* login();
+    virtual ~Employee() = default;
     void logout();
     void clockIn();
     void clockOut();

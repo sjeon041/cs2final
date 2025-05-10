@@ -25,7 +25,7 @@ void Menu::initializeFromFile(string filename) {
 
 void Menu::displayMenu() {
     for (int i = 0; i < count; i++) {
-        cout << i << ": " << items[i].name << " - $" << items[i].price
+        cout << i+1 << ": " << items[i].name << " - $" << items[i].price
              << " | " << items[i].description << endl;
     }
 }
@@ -33,4 +33,10 @@ void Menu::displayMenu() {
 MenuItem* Menu::getItemById(int id) {
     if (id >= 0 && id < count) return &items[id];
     return nullptr;
+}
+
+Menu::Menu(){
+    string filename = "menu.txt";
+    initializeFromFile(filename);
+
 }

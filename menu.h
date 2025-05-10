@@ -13,5 +13,10 @@ private:
 public:
     void initializeFromFile(string filename);
     void displayMenu();
+    int getCount()
+    {
+        return count;
+    }
+    Menu();
     MenuItem* getItemById(int id);
 };
