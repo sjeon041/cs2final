@@ -1,13 +1,12 @@
-#include "Employee.h"
-#include "Chef.h"
-#include "Server.h"
+#include "employee.h"
+#include "chef.h"
+#include "server.h"
 #include <iostream>
 #include <fstream>
 #include <string>
-
 using namespace std;
 
-Employee* login() {
+Employee* Employee::login() {
     string inputUser, inputPass;
     cout << "Username: ";
     cin >> inputUser;

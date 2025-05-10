@@ -1,10 +1,10 @@
 #pragma once
-#include "Employee.h"
-#include "Order.h"
+#include "employee.h"
+#include "order.h"
 
 class Chef : public Employee {
 private:
-    Order currentOrder;
+    Order currentOrder; // Only the chef really cares what the current ongoing order is
 
 public:
     void getOrder(Order order);

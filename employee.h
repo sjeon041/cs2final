@@ -9,7 +9,7 @@ protected:
     double hoursWorked = 0;
 
 public:
-    Employee* login();
+    static Employee* login();
     void logout();
     void clockIn();
     void clockOut();

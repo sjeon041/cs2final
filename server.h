@@ -1,6 +1,6 @@
 #pragma once
-#include "Employee.h"
-#include "Order.h"
+#include "employee.h"
+#include "order.h"
 
 class Server : public Employee {
 public:
