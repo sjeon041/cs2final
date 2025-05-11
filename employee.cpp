@@ -64,7 +64,7 @@ Employee* Employee::login() {
     return nullptr;
 }
 
-void Employee::logout() {
+/*void Employee::logout() {
     cout << "User " << username << " logged out.\n";
 }
 
@@ -79,3 +79,5 @@ void Employee::clockOut() {
 double Employee::getHoursWorked() {
     return hoursWorked;
 }
+    //I wanted to implement these but the scope of the project kept getting bigger.
+*/

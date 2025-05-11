@@ -23,7 +23,7 @@ void Menu::initializeFromFile(string filename) {
     file.close();
 }
 
-void Menu::displayMenu() {
+void Menu::displayMenu() { // Prints out the whole menu.
     for (int i = 0; i < count; i++) {
         cout << i+1 << ": " << items[i].name << " - $" << items[i].price
              << " | " << items[i].description << endl;

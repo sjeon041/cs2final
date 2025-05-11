@@ -9,7 +9,6 @@ class Employee {
 private:
     string username;
     string password;
-    double hoursWorked = 0;
 
 public:
     static Employee* login();
@@ -18,8 +17,9 @@ public:
         return username;
     }
     virtual ~Employee() = default;
-    void logout();
+/*    void logout();
     void clockIn();
     void clockOut();
     double getHoursWorked();
+*/
 };
