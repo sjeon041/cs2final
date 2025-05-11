@@ -1,6 +1,7 @@
 #pragma once
 #include "employee.h"
 #include "order.h"
+#include "global.h"
 
 class Chef : public Employee {
 private:

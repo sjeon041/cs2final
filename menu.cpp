@@ -37,6 +37,6 @@ MenuItem* Menu::getItemById(int id) {
 
 Menu::Menu(){
     string filename = "menu.txt";
-    initializeFromFile(filename);
+    initializeFromFile(filename); // Made slightly modular
 
 }

@@ -1,6 +1,6 @@
 #include "employee.h"
-#include "chef.h"
-#include "server.h"
+#include "Chef.h"
+#include "Server.h"
 #include <iostream>
 #include <fstream>
 #include <string>

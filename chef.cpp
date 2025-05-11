@@ -3,12 +3,12 @@
 
 void Chef::getOrder(Order order) {
     currentOrder = order;
-    cout << "Chef started order #" << order.id << endl;
+    cout << "Chef started order #" << currentOrder.orderId << endl;
 }
 
 void Chef::markFinished() {
     currentOrder.status = "ready";
-    cout << "Chef finished order #" << currentOrder.id << endl;
+    cout << "Chef finished order #" << currentOrder.orderId << endl;
 }
 
 Order Chef::getCurrentOrder() {

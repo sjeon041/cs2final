@@ -1,14 +1,11 @@
 #include "server.h"
 #include <iostream>
 
-Order Server::takeOrder(Menu& menu) {
+Order Server::takeOrder(Menu* menu) {
     Order customerOrder;
     customerOrder.placeOrder(menu);
-
-    // Order ID should be automatically generated (global variable in int main)
-    // Write a loop to read file and add corresponding items until order is completed and is terminated by the server giving "0" as an input
-
-    cout << "Server took order #" << order.id << endl;
+    customerOrder.printOrder();
+    return customerOrder;
 }
 
 void Server::checkFinished() {
@@ -17,6 +14,6 @@ void Server::checkFinished() {
 }
 
 void Server::serveOrder(Order& order) {
-    cout << "Served order #" << order.id << endl;
+    cout << "Served order #" << order.orderId << endl;
     //Needs to mark order as finished
 }
