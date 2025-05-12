@@ -1,6 +1,6 @@
 User 1s
-username: 123
-password: abc
+username: timothyj
+password: testpwd123
 User 2c
 username: hamzab
 password: testpwdabc

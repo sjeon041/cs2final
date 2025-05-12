@@ -7,13 +7,14 @@ Order Server::takeOrder(Menu* menu) {
     customerOrder.printOrder();
     return customerOrder;
 }
-
+/*
 void Server::checkFinished() {
     cout << "Checking if any orders are ready...\n";
-    // Needs implementation
+    // Main currently does not use this function, though it should be implemented.
 }
 
 void Server::serveOrder(Order& order) {
     cout << "Served order #" << order.orderId << endl;
-    //Needs to mark order as finished
+    // Current implementation just marks order as finished in main. Future updates should should implement this.
 }
+*/

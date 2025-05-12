@@ -4,6 +4,7 @@
 #include <iostream>
 
 void Menu::initializeFromFile(string filename) {
+    // Could make an argument to faciliate the ability to editing the menu and whatnot in-program, possibly in future versions
     ifstream file(filename);
     string line;
     while (getline(file, line)) {
@@ -30,13 +31,13 @@ void Menu::displayMenu() { // Prints out the whole menu.
     }
 }
 
-MenuItem* Menu::getItemById(int id) {
+MenuItem* Menu::getItemById(int id) { // Just returns a pointer to a menu item with the ID.
     if (id >= 0 && id < count) return &items[id];
     return nullptr;
 }
 
 Menu::Menu(){
     string filename = "menu.txt";
-    initializeFromFile(filename); // Made slightly modular
+    initializeFromFile(filename);
 
 }

@@ -17,6 +17,9 @@ double Order::calculateTotal() const{
 
 
 void Order::printOrder() const{
+    /* Prints a small receipt.
+    Honestly this function is probably reused a lot more than it should be, it's called for pretty much every time there's an order to display.
+    Future iterations should probably just go and have simpler outputs such as just the top part with ID, customer name, table number, and status.*/
     cout << "-----------------------------\n";
     cout << "Order ID:      " << orderId << endl;
     cout << "Customer Name: " << customerName << endl;
@@ -72,7 +75,7 @@ void Order::placeOrder(Menu* currentMenu)
         {
             cout << "Please enter the quantity of the dish ordered.\n";
             cin >> currentRequest.quantity;
-            cout << "Please enter any special requests for the dish. Enter 'None' if there is no such request.\n";
+            cout << "Please enter any special requests for the dish. Enter 'None' or press newline if there is no such request.\n";
             cin.ignore(); 
             getline(cin, currentRequest.specialRequest);
             MenuItem* foodNumber = currentMenu->getItemById(foodId);

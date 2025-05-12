@@ -7,6 +7,8 @@
 class Server : public Employee {
 public:
     Order takeOrder(Menu* menu);
+    /*
     void checkFinished();
     void serveOrder(Order& order);
+    */
 };
