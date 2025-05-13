@@ -30,7 +30,7 @@ int main() {
         Employee* user = Employee::login(); // This could point to a Chef or Server
         while (!user) {
                 cout << "Login failed.\n";
-                return 1;
+                return 1; //This needs to have a looping condition to recheck the user for proper credentials on failure.
         }
         Menu* currentMenu = new Menu();
         int userInput;

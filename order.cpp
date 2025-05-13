@@ -49,6 +49,7 @@ void Order::printOrder() const{
 
 void Order::placeOrder(Menu* currentMenu)
 {
+    // Probably the most important function in the entire program. Creates an order object with the necessary details that will be accessed very often later.
     cout << "Please enter the customer's name.\n";
     cin.ignore();
     getline(cin, customerName);
